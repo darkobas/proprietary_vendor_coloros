@@ -12,11 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 PRODUCT_COPY_FILES += \
-         vendor/coloros/find7a/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-         vendor/coloros/find7a/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-         vendor/coloros/find7a/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw
-
-PRODUCT_COPY_FILES += \
 	vendor/coloros/find7a/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
 	vendor/coloros/find7a/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
 	vendor/coloros/find7a/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
